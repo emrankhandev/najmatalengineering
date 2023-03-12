@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
     mobileNavShow.classList.toggle('d-none');
     mobileNavHide.classList.toggle('d-none');
   }
-
   /**
    * Hide mobile nav on same-page/hash links
    */
