@@ -554,7 +554,7 @@ section {
   width: 100%;
   height: 95vh;
   background-image: linear-gradient(to left, rgba(15, 9, 9, 0), rgba(164 164 189)),
-  url(/assets/img/lime-in-steel.jpg);
+  url(assets/img/lime-in-steel.jpg);
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
