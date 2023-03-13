@@ -1,9 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
-  /**
-   * Preloader
-   */
+  /** Preloader*/
   const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
@@ -11,9 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /**
-   * Mobile nav toggle
-   */
+  /*** Mobile nav toggle*/
 
   const mobileNavShow = document.querySelector('.mobile-nav-show');
   const mobileNavHide = document.querySelector('.mobile-nav-hide');
@@ -30,9 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     mobileNavShow.classList.toggle('d-none');
     mobileNavHide.classList.toggle('d-none');
   }
-  /**
-   * Hide mobile nav on same-page/hash links
-   */
+  /*** Hide mobile nav on same-page/hash links*/
   document.querySelectorAll('#navbar a').forEach(navbarlink => {
 
     if (!navbarlink.hash) return;
