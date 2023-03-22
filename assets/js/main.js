@@ -191,11 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
-   /**
-   * Initiate pURE cOUNTER
-   */
-   new PureCounter();
-
+  
    /**
     * Animation on scroll function and init
     */
