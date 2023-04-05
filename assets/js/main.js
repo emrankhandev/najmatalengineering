@@ -121,12 +121,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   }
 
-  /**
+   /**
    * Init swiper slider with 1 slide at once in desktop view
    */
-  new Swiper('.slides-1', {
+   new Swiper('.slides-1', {
     speed: 600,
-    loop: false,
+    loop: true,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   new Swiper('.slides-2', {
     speed: 600,
-    loop: false,
+    loop: true,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false
@@ -175,6 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
+
 
   /**
    * Animation on scroll function and init
