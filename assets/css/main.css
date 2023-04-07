@@ -950,7 +950,7 @@ section {
   width: 90px;
   border-radius: 10px;
   border: 6px solid #fff;
-  position: absolute;
+  /* position: absolute; */
   left: -45px;
 }
 

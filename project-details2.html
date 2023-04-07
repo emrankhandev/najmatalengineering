@@ -7,7 +7,7 @@
   <title> Najmat Al Engineering Ltd.</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-  <link href="assets/img/Metal-PNG-Image-File.png" rel="icon">
+  <link href="assets/img/al-naj-logo-icon.png" rel="icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -25,11 +25,12 @@
   <section id="topbar" class="topbar text-right">
     <div class="container pt-1 justify-content-md-between">
       <div class="contact-info">
-        <a class="ms-3" href="mailto:contact@example.com"><i class="bi bi-envelope"></i> <b>contact@example.com</b></a>
-        <a class="ms-3" href="https://api.whatsapp.com/send?phone=8801780332657"><i class="bi bi-phone"></i>
+        <a class="ms-3" href="mailto:sales@najmatalengineering.com"><i class="bi bi-envelope"></i> <b>sales@najmatalengineering.com</b></a>
+        <a class="ms-3" href="https://api.whatsapp.com/send?phone=8801780332657"><i class="bi bi-whatsapp"></i>
           <b>Whatsapp: +8801780332657</b>
         </a>
         <a class="clock ms-3"><i class="bi bi-clock"></i> <b>24-hour service</b> </a>
+        <a class="clock ms-3"><i class="bi bi-telephone"></i> <b>+88-02-22666-4541</b> </a>
       </div>
     </div>
   </section>
@@ -37,27 +38,24 @@
   <header id="header" class="header d-flex align-items-center"
     style="position: fixed; height: 80px; background: white;color: black;">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <h1>
-        <a href="index.html"><img src="assets/img/Metal-PNG-Image-File.png" style="height: 51px; width: 50px;" /> <img src="assets/img/cooll.png" alt=""></a>
-      </h1>
+        <a href="index.html">
+          <img src="assets/img/al-naj-logo.png" style="width: 225px;" />
+        </a>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="./about.html">About</a></li>
           <li><a href="./all-project-details.html">All Products</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li class="dropdown d-none"><a href="#"><span>Dropdown</span> <i
-                class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li><a href="./faq.html">FAQ</a></li>
+          <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="./gallery.html">Products & Workshop Photo</a></li>
+              <li><a href="./gallery_org.html">Company Documents</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -154,7 +152,6 @@
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
     <div class="footer-content position-relative">
@@ -177,10 +174,8 @@
             <h5>Contact</h5>
             <div class="social-links d-flex mt-3">
               <p>
-                <strong>Email:</strong> info@example.com <br>
-                <strong>Phone:</strong> +8801794194946 <br>
-                &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; +880187355972<br>
-                &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; +8801780332657
+                <strong>Email:</strong> sales@najmatalengineering.com <br>
+                <strong>Phone:</strong> +88-02-22666-4541
               </p>
             </div>
           </div>
@@ -196,7 +191,7 @@
             <h5>Social Links</h5>
             <div class="social-links d-flex mt-3" style="margin-left: 74px;">
               <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.facebook.com/people/Najmat-Alengineering/pfbid0913cQmNWga4JN3bpXMGvNbHBEAanbdbxT1L6ZXrSf3hBjeTAQTTsopZTMNTrEk3nl/" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
               <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
               <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
             </div>
@@ -218,6 +213,7 @@
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
   <!-- Template Main JS File -->
   <script src="assets/js/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
@@ -225,11 +221,12 @@
     function submitForm(event) {
       event.preventDefault();
       let data = new FormData(event.target);
-      fetch('https://script.google.com/macros/s/AKfycbzRw_TRgqjfFeTouevKP3zJurhtRL4DWroecwBYLVa2xYEBiShVr49Zi53gQJFPMLxhQA/exec', {
+      fetch('https://script.google.com/macros/s/AKfycbybdgCwMDSiZHP1htO5j_hezqVA5Z4_0SIdPyoLwEUjuQ4_PfSlC8DWuUVk3YRTSNin/exec', {
         method: "POST",
         body: data
       }).then(res => res.text())
         .then(data => {
+          alert("Thanks For message us, we will contact you soon!")
           document.getElementById('notification').innerHTML = 'Thank you for your message!';
           document.getElementById("contactForm").reset();
         });
