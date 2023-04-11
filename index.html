@@ -47,15 +47,21 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
+          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="./about.html">Company</a></li>
+              <li><a href="./key_management.html">Key Management</a></li>
+            </ul>
+          </li>
+          <li><a href="./project_future.html">Projects</a></li>
           <li><a href="./all-project-details.html">All Products</a></li>
-          <li><a href="./faq.html">FAQ</a></li>
           <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="./gallery.html">Products & Workshop Photo</a></li>
-              <li><a href="./gallery_org.html">Company Documents</a></li>
             </ul>
           </li>
+          <li><a href="./accreditation.html">Accreditation</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
           <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -89,7 +95,7 @@
         </div>
         <div class="row gy-4">
           <div class="col-lg-7 position-relative" data-aos="fade-up" data-aos-delay="150">
-            <img src="assets/img/footer-bg.jpg" alt="about" style="width: 753px; height: 525px;">
+            <img class="img-fluid" src="assets/img/footer-bg.jpg" alt="about">
           </div>
           <div class="col-lg-5 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="content ps-0 ps-lg-5">
@@ -454,7 +460,11 @@
               <div class="error-message"></div>
               <div id="notification" class="sent-message"></div>
             </div>
-            <div class="text-center"><button class="btn btn-info" type="submit">Send Message</button></div>
+            <div class="text-center">
+              <button class="btn btn-info" type="submit">
+                Send Message
+              </button>
+            </div>
           </form>
         </div><!-- End Contact Form -->
 
@@ -471,7 +481,7 @@
 
           <div class="col-md-4">
             <div class="footer-info">
-              <h3><a href="./index.html">Najmat Al Engineering Ltd. </a> </h3>
+              <h3>Najmat Al Engineering Ltd.</h3>
               <p>
                 Head Office <br>
                 3/1-3/2-Saraqu Mac<br>
@@ -481,28 +491,35 @@
             </div>
           </div>
 
-          <div class="col-md-3 footer-links">
-            <h5>Contact</h5>
-            <div class="social-links d-flex mt-3">
+          <div class="col-md-3">
+            <div class="footer-info">
+              <h3>Corrosponde Office</h3>
               <p>
-                <strong>Email:</strong> sales@najmatalengineering.com <br>
-                <strong>Phone:</strong> +88-02-22666-4541
+                Bayan Business Center <br>
+                Dubai Investment Park First<br>
+                Plot No : 290-0<br>
+                Property No : 601-0567<br>
+                Dubai, UAE <br>
+                Tel : +971509849403
               </p>
             </div>
           </div>
 
           <div class="col-md-2 footer-links">
-            <h5>Useful Links</h5>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#about">About us</a></li>
-            </ul>
+            <h5>Contact</h5>
+            <div class="social-links d-flex mt-3">
+              <p>
+                <strong>Email : sales@najmatalengineering.com</strong> <br>
+                <strong>Phone : +88-02-22666-4541</strong> 
+              </p>
+            </div>
           </div>
+
           <div class="col-lg-3 col-md-3 footer-links text-center">
             <h5>Social Links</h5>
             <div class="social-links d-flex mt-3" style="margin-left: 74px;">
               <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-              <a href="https://www.facebook.com/people/Najmat-Alengineering/pfbid0913cQmNWga4JN3bpXMGvNbHBEAanbdbxT1L6ZXrSf3hBjeTAQTTsopZTMNTrEk3nl/" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.facebook.com/najmatalengineeringltd" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
               <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
               <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
             </div>
@@ -542,3 +559,4 @@
 </body>
 
 </html>
+

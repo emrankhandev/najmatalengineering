@@ -1273,15 +1273,15 @@ section {
 }
 
 .footer .footer-content .footer-info h3 span {
-  color: var(--color-primary);
+  color: white;
 }
 
 .footer .footer-content .footer-info p {
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   line-height: 24px;
   margin-bottom: 0;
   font-family: var(--font-primary);
-  color: #fff;
+  color: white;
 }
 
 .footer .footer-content .social-links a {
