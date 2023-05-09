@@ -150,7 +150,8 @@
             <div class="mt-5">
               <h5 class="mb-3">Need consultation?</h5>
               <p>We will contact you as soon as possible</p>
-              <form onsubmit="submitForm(event)" id="contactForm">
+              <!-- <form onsubmit="submitForm(event)" id="contactForm"> -->
+              <form id="contactForm" action="./forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -253,7 +254,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
-  <script>
+  <!-- <script>
     function submitForm(event) {
       event.preventDefault();
       let data = new FormData(event.target);
@@ -267,7 +268,7 @@
           document.getElementById("contactForm").reset();
         });
     }
-  </script>
+  </script> -->
 </body>
 
 </html>
