@@ -24,21 +24,21 @@
           <li><a href="index">Home</a></li>
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="./about">Company</a></li>
-              <li><a href="./doc">Documents</a></li>
+              <li><a href="about">Company</a></li>
+              <li><a href="doc">Documents</a></li>
             </ul>
           </li>
-          <li><a href="./projects">Projects</a></li>
-          <li><a href="./all-project-details">All Products</a></li>
+          <li><a href="projects">Projects</a></li>
+          <li><a href="all-project-details">All Products</a></li>
           <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="./gallery">Products & Workshop Photo</a></li>
-              <li><a href="./cotton">Cotton & Febric Photo</a></li>
+              <li><a href="gallery">Products & Workshop Photo</a></li>
+              <li><a href="cotton">Cotton & Febric Photo</a></li>
             </ul>
           </li>
-          <li><a href="./accreditation">Accreditation</a></li>
-          <li><a href="./key_management">Key Management</a></li>
-          <li><a href="./contact">Contact</a></li>
+          <li><a href="accreditation">Accreditation</a></li>
+          <li><a href="key_management">Key Management</a></li>
+          <li><a href="contact">Contact</a></li>
         </ul>
       </nav>
     </div>

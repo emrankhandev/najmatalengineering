@@ -2,7 +2,7 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $name = $_POST['name'];
   $email = $_POST['email'];
-  $mobile = $_POST['mobile'];
+  $mobile = $_POST['phone'];
   $subject = $_POST['subject'];
   $message = $_POST['message'];
   // $attachments = array();
@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $mail->addCC($email, $name);
   $mail->Subject  = $subject;
   $mail->isHTML();
-  $mail->Body = $mobile + $message;
+  $mail->Body = $mobile. "  \n" .$message;
   $mail->addAddress("sales@najmatalengineering.com");
   // foreach ($attachments as $attachment) {
   //   $mail->addStringAttachment($attachment['content'], $attachment['name'], 'base64', $attachment['type']);

@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="footer-info">
               <h3>Najmat Al Engineering Ltd.</h3>
               <p>
@@ -15,16 +15,15 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="footer-info">
-              <h3>Corrosponde Office</h3>
+              <h3>Sales Office</h3>
               <p>
-                Bayan Business Center <br>
-                Dubai Investment Park First<br>
-                Plot No : 290-0<br>
-                Property No : 601-0567<br>
-                Dubai, UAE <br>
-                Tel : +971509849403
+                Kadamtali, Keranigonj <br>
+                Rasheda Iron Market, 2nd Floor, Bandha Duckpara<br>
+                Kadamtali, Zinzira, Keranigonj, Dhaka - 1310<br>
+                Tel : +88 01794194948<br>
+                Email : sales@najmatalengineering.com
               </p>
             </div>
           </div>
@@ -36,7 +35,9 @@
                 32/B Nawab Yousuf Road <br>
                 Abdul Khair Market, <br>
                 Show Room No : 64 <br>
-                Nayabazar, Dhaka -1100 , Bangladesh
+                Nayabazar, Dhaka -1100 , Bangladesh <br>
+                Tel : +88 01842-235838<br>
+                Email : sales@najmatalengineering.com
               </p>
             </div>
           </div>
@@ -65,20 +66,6 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script> 
+  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/js/main.js"></script>
-  <script>
-    function submitForm(event) {
-      event.preventDefault();
-      let data = new FormData(event.target);
-      fetch('https://script.google.com/macros/s/AKfycbybdgCwMDSiZHP1htO5j_hezqVA5Z4_0SIdPyoLwEUjuQ4_PfSlC8DWuUVk3YRTSNin/exec', {
-        method: "POST",
-        body: data
-      }).then(res => res.text())
-        .then(data => {
-          alert("Thanks For message us, we will contact you soon!")
-          document.getElementById('notification').innerHTML = 'Thank you for your message!';
-          document.getElementById("contactForm").reset();
-        });
-    }
-  </script>
